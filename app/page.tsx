@@ -7,13 +7,14 @@ export default async function Homepage() {
 
   return (
     <div>
-      <h1>Keystatic ⚡️</h1>
-      <p>This homepage shows how to load a collection from the reader API.</p>
+      <h1>Books quotes</h1>
+      <p>This is the homepage for the Books quotes site.</p>
       <p>
-        <a href="/keystatic">Click here to visit the Admin UI</a>, or the link
-        below to view a post in the collection.
+        I created this site to share my favorite quotes from various books I've read.
+        Feel free to browse through the posts and discover some inspiring quotes!
       </p>
-      <h2>Posts</h2>
+      <br></br>
+      <h2>Latest Posts</h2>
       <ul>
         {posts.map(post => (
           <li key={post.slug}>
