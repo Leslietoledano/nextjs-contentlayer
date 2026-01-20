@@ -46,3 +46,30 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.quote-card {
+  padding: 1.5rem;
+  border-left: 4px solid  #AA91EF;
+  background: #f9f9f9;
+  border-radius: 0 8px 8px 0;
+}
+
+.quote-card p {
+  font-family: var(--font-header); /* The serif font we added */
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.quote-card cite {
+  font-family: var(--font-body);
+  font-weight: bold;
+  font-size: 0.6rem;
+  color: #666;
+}
