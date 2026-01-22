@@ -9,10 +9,16 @@ export default async function Homepage() {
   return (
     <AnimatedContent>
       <h1 className="fade-in">Books quotes</h1>
-      <p className='fade-in'>This is the homepage for the Books quotes site.</p>
+      <p className='fade-in'>Hey there, welcome!👋</p>
       <p className='fade-in'>
-        I created this site to share my favorite quotes from various books I've read.
-        Feel free to browse through the posts and discover some inspiring quotes!
+        I started this site as a way to share my favorite book quotes and, more importantly, to help me actually finish the books I start! 
+        I will say it’s my personal accountability project.
+      </p>
+      <p className='fade-in'> 
+        Beyond the books, I’m also using this space to track my progress as I sharpen my skills in Next.js and TypeScript. 
+      </p>
+      <p className='fade-in'>
+        Take a look around—I hope you find some inspiration in these pages!
       </p>
       <br></br>
       <h2 className='fade-in'>Latest Posts</h2>
