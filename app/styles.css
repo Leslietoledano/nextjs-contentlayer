@@ -73,3 +73,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.6rem;
   color: #666;
 }
+
+.moving-gradient {
+  /* Define the starting position variable */
+  --gradient-pos: 0% 0%;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Keep it behind your content */
+  
+  /* Create a cool mesh-style gradient */
+  background: radial-gradient(
+    circle at var(--gradient-pos),
+    #e6e0fe 0%,
+    #fdf0ff 25%,
+    #ffffff 100%
+  );
+  
+  /* Optional: Add a second background layer for a "Mesh" effect */
+  background-attachment: fixed;
+}
